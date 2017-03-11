@@ -1,3 +1,5 @@
+
+//Function to return Maximum and Minimum values in a new array
 function findMinMax(arr){
 
 	var len = arr.length, min = Infinity, max = -Infinity;
