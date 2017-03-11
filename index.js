@@ -1,22 +1,22 @@
 function findMinMax(arr){
 
-	var len =arr.length
+	var len = arr.length, min = Infinity, max = -Infinity;
+  while (len--) {
+    if (Number(arr[len]) < min) {
+      min = Number(arr[len]);
+    }
 
-	while(len--){
-		if(arr[len]){
-			min = arr[len];
-		}
+    if (Number(arr[len]) > max) {
+      max = Number(arr[len]);
+    }
 
-		if(arr[len]>max){
-			max=arr[len];
-		}
-	}
 
-	var arraynew ={}
-	arraynew[0]=min;
-	arraynew[1]=max;
+  }
+  newarray =[];
 
-	return arraynew;
+  newarray.splice(0,0,min,max);
+
+  return newarray;
 }
 arr=[3,4,5,6,7,8,4,3,5,15];
-findMinMax(arr)
+console.log(findMinMax(arr))

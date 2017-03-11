@@ -1,6 +1,8 @@
 (function() {
   'use strict';
 
+  var jasmin = require('jasmine')
+
   describe('Min-Max Numbers in a List: ', function () {
 
     describe('Return the min and max number in the list in a new list follows `[min, max]`', function () {
