@@ -6,7 +6,7 @@
 	"description":"",
 	"main":"index.js",
 	"scripts": {
-		"test": "spec/testSpec.js"
+		"test": "jasmine spec/testSpec.js"
 	}
 
 	"author": "Deborah Oni",
