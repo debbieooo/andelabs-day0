@@ -1,0 +1,11 @@
+{
+  "name": "trial",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": " jasmine spec/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
